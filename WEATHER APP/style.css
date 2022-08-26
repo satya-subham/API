@@ -1,0 +1,40 @@
+.container{
+    width: 98vw;
+    height: auto;
+}
+.weather_info{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    margin: 10px;
+    background-color: cyan;
+    border-radius: 10px;
+}
+.weather_clouds{
+    width: 100px;
+    height: 50px;
+    position: relative;
+    bottom: 230px;
+    left: 270px;
+}
+.inputs{
+    width: 98vw;
+    height: 50px;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: rgb(116, 147, 148);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+input{
+    width: 200px;
+    height: 30px;
+    font-size: large;
+    border-radius: 10px;
+}
+button{
+    width: auto;
+    height: 30px;
+    border-radius: 10px;
+}
