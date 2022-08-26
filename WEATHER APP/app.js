@@ -7,7 +7,7 @@ btn1.addEventListener("click", function (name) {
   )
     .then((response) => response.json())
     .then((data) => {
-        cityInput.value = '';
+      cityInput.value = "";
       let result = `<div class="weather_info">
             <h1>City : ${data.name}</h1> 
              <h1>Temp = ${Math.floor(data["main"].temp - 273)} °C</h1>
@@ -21,6 +21,7 @@ btn1.addEventListener("click", function (name) {
              <i class="fa-solid fa-cloud"></i>
              </div>
              </div>`;
+
       let container = document.querySelector(".container");
       container.innerHTML += result;
       console.log(data);
@@ -41,8 +42,8 @@ enterBtn.addEventListener("click", (event) => {
   )
     .then((response) => response.json())
     .then((data) => {
-        longInput.value = '';
-        latInput.value = '';
+      longInput.value = "";
+      latInput.value = "";
       container.innerHTML += `<div class="weather_info">
         <h1>City : ${data.name}</h1> 
          <h1>Temp = ${Math.floor(data["main"].temp - 273)} °C</h1>
@@ -56,7 +57,7 @@ enterBtn.addEventListener("click", (event) => {
          <i class="fa-solid fa-cloud"></i>
          </div>
          </div>`;
-         console.log(data);
+      console.log(data);
     })
     .catch((err) => alert("invalid longitude or latitude"));
 });
