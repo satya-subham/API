@@ -1,0 +1,50 @@
+body{
+background-color: black;
+}
+.button{
+    margin: 20px 40%;
+}
+#show-search{
+    font-size: x-large;
+    color: chartreuse;
+    background: none;
+    border: none;
+}
+input{
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    font-size: large;
+    text-align: center;
+}
+.input{
+    display: none;
+}
+#search{
+    position: relative;
+    bottom: 29px;
+    left: 270px;
+    background: none;
+    border: none;
+}
+
+.movie-container{
+    width: 98vw;
+    height: auto;
+}
+.movie-div{
+    width: 230px;
+    height: auto;
+    display: inline-block;
+    /* background-color: cadetblue; */
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+#show-more{
+    height: 30px;
+    border-radius: 20px;
+    background-color: chartreuse;
+    color: black;
+}
